@@ -1,0 +1,34 @@
+package com.Interface;
+interface i1{
+	void m1();  //Abstract method
+}
+interface i2 extends i1{
+	void m2();
+}
+class B implements i2{
+
+	@Override
+	public void m1() {
+	System.out.println("m1-B");	
+	}
+
+	@Override
+	public void m2() {
+		System.out.println("m2-B");
+		
+	}
+	
+	
+}
+public class Demo2 {
+	
+	public static void main (String [] args) {
+         i1 i  =new B();  //Upcasting
+         i.m1();
+         
+         i2 a = new B();
+         a.m1();
+         a.m2();
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.Interface;
+interface i111{
+	void m1();
+}
+interface i222{
+	void m2();
+}
+interface i333{
+	void m3();
+}
+class B123 extends i111,i222,i333{
+	@Override
+	public void m3() {
+		System.out.println("m3-B");
+		}
+	@Override
+
+}
+public class Demo4 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

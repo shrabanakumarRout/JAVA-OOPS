@@ -1,0 +1,35 @@
+package com.Interface;
+interface test11{
+	//void m1();
+}
+interface test22{
+	void m2();
+}
+class Ab {
+	public void m1() {
+		System.out.println("m1-Ab");
+	}
+}
+class CD extends Ab implements test11,test22{
+
+	@Override
+	public void m2() {
+		System.out.println("m2-CD");
+		
+	}
+
+	@Override
+	public void m1() {
+		System.out.println("m2-CD");
+	}
+	
+}
+public class Demo6 {
+
+	public static void main(String[] args) {
+		test11 t = new CD();
+		t.m2();
+
+	}
+
+}

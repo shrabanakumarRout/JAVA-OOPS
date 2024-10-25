@@ -1,0 +1,18 @@
+package com.Interface;
+interface i1{
+	void m1();
+}
+interface i2{
+	void m2();
+}
+interface i3{
+	void m3();
+}
+public class Demo4 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

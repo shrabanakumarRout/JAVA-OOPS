@@ -1,0 +1,10 @@
+package Number;
+import java.util.Scanner;
+public class AlternativePrimeno {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
