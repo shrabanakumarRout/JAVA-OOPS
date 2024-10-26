@@ -11,5 +11,4 @@ public class A2 {
 		B2 b2 = new B2();
 		b2.m1(10,20);
 	}
-
 }

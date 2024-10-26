@@ -12,7 +12,7 @@ public class B {
 		return "B [i=" + i + ", j=" + j + "]";
 	}
 	@Override
-	public boolean equals (Object o) {
+	public boolean equals (Object o) { //Compare the values of variable that create in the object reference;
 		B b = (B)o;   // Downcasting
 		return this.i == b.i && this.j == b.j;
 	}
