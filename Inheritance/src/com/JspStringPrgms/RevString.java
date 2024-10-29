@@ -2,16 +2,17 @@ package com.JspStringPrgms;
 public class RevString {
 
 	public static void main(String[] args) {
-		System.out.println(reverse("java"));
+		System.out.println(reverse("Java"));
 
 	}
 
 
-static String reverse(String s) {
-	String s1 = " ";  //local variable declare to store the value s.string value
+public static String reverse(String s) {
+	s=s.toLowerCase();
+	String temp = " ";  //local variable declare to store the value s.string value
 	for(int i = s.length()-1;i>=0;i--) {
-		s1+=s.charAt(i);
+		temp+=s.charAt(i);
 	}
-	return s1;
+	return temp;
 }
 }
