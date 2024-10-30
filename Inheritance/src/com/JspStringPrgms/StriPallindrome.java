@@ -8,7 +8,7 @@ public class StriPallindrome {
 	}
 	
 	
-	static boolean ispallindrome(String s) {
+	static Boolean ispallindrome(String s) {
 		int i = 0; int j = s.length()-1;
 		while(i<j) {
 			if(s.charAt(i)!=s.charAt(j))return false; {
