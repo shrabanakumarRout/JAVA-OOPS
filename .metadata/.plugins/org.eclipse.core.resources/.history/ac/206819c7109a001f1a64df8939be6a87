@@ -1,0 +1,10 @@
+package StringPractise;
+
+public class RevArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
