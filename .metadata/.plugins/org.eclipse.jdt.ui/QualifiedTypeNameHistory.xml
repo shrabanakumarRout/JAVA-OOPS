@@ -8,4 +8,7 @@
     <fullyQualifiedTypeName name="com.Innerclass.A"/>
     <fullyQualifiedTypeName name="com.Innerclass.A.B"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

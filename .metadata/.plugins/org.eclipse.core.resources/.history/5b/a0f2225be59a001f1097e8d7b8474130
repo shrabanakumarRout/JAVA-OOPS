@@ -1,0 +1,19 @@
+package com.JspStringPrgms;
+
+public class MissingVowels {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	
+	static String isVowel(String s) {
+		String s1 = "";
+		for(int i=0;i<s.length();i++) {
+			if(s.charAt(i)=='a'||s.charAt(i)=='e'||s.charAt(i)=='i')
+		}
+	}
+	
+
+}
