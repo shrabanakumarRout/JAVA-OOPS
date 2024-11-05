@@ -5,7 +5,7 @@ public class MissingVowels {
 	public static void main(String[] args) {
 		
 	String s = "shrabanee";
-	String s1 = "a e i o u";
+	String s1 = "a,e,i,o,u";
 	int i = 0;
 	
 	while(i<s.length()) {
