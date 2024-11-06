@@ -20,5 +20,5 @@ public class Test20 {
 		System.out.println(s2);
 
 	}
-  
+
 }
