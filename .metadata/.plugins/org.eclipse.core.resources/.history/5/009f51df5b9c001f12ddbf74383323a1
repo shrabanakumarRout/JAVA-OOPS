@@ -7,7 +7,7 @@ public class Test12 {
 
 	public static void main(String[] args) {
 		String s = "acbdabeabbbebbb";
-		String exp =("ab?"); //minimum 0 and maximum 1 occurrence of previous character
+		String exp =("ab?");
 		
 		Pattern p = Pattern.compile(exp);
 		Matcher m =p.matcher(s);

@@ -3,11 +3,11 @@ package com.Regex1;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Test12 {
+public class Test11 {
 
 	public static void main(String[] args) {
-		String s = "acbdabeabbbebbb";
-		String exp =("ab?"); //minimum 0 and maximum 1 occurrence of previous character
+		String s = "abcdabbeagebab";
+		String exp =("ab*");
 		
 		Pattern p = Pattern.compile(exp);
 		Matcher m =p.matcher(s);
@@ -15,8 +15,8 @@ public class Test12 {
 		
 		while(m.find()) {
 			System.out.println("Matched substring: " +m.group());
-		    System.out.println(m.start());
-			System.out.println(" Position: "+m.end());
+		    System.out.println("Position start: "+m.start());
+			System.out.println("Position end: "+m.end());
 		}
 
 	}
