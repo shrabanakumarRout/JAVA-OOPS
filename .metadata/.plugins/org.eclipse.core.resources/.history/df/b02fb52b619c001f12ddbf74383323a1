@@ -17,8 +17,10 @@ public class Test19 {
         	String s2 = s1.substring(0,1);
         	str = str.replaceAll(s1, s2);
         	
+        System.out.println(s1);
+        System.out.println(s2);
+        //System.out.println(str);
         }
-        System.out.println(str);
         
 	}
 
