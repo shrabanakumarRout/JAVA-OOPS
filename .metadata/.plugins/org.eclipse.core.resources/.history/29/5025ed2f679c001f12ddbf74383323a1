@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class Test21 {
 
 	public static void main(String[] args) {
-		String exp = "([a-z]+)\\1"; //
+		String exp = "([a-z]+)\\1";
 		String str = "banana";
 		Pattern p = Pattern.compile(exp);
 		Matcher m = p.matcher(str);
