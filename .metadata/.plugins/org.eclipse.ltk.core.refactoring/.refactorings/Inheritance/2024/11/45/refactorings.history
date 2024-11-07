@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;StringPractise.Reverse&apos; to &apos;ReverseString&apos;&#x0D;&#x0A;- Original project: &apos;Inheritance&apos;&#x0D;&#x0A;- Original element: &apos;StringPractise.Reverse&apos;&#x0D;&#x0A;- Renamed element: &apos;StringPractise.ReverseString&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Reverse&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;StringPractise{Reverse.java[Reverse" matchStrategy="1" name="ReverseString" qualified="false" references="true" similarDeclarations="false" stamp="1730657765154" textual="false" version="1.0"/>
-</session>
