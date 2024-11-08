@@ -15,7 +15,7 @@ public class SecHighest {
 				 high=a[i];
 			}
 			
-			else if(a[i]>sechigh ||high==sechigh) {
+			else if(a[i]>sechigh || high==sechigh) {
 				sechigh=a[i];
 			}
 		}
