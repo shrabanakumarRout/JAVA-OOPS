@@ -36,7 +36,7 @@ public class AnimalDriver {
 		for(Animal n:a) {
 			n.makesound();
 			if(n instanceof Dog) {
-				Dog D = (Dog)n;
+				Dog D = (Dog)n; //DownCasting the Animal object and Store it in Dog reference type
 				D.jump();
 			}
 		}

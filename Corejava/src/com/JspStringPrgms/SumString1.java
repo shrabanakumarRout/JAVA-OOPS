@@ -7,8 +7,6 @@ public class SumString1 {
 
 	}
 
-	
-	
 	static int add(String s) {
 	char[] a =s.toCharArray();
 		int sum = 0;

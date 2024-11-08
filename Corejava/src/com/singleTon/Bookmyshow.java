@@ -8,8 +8,8 @@ public class Bookmyshow {
 		MovieHall user2 = MovieHall.getInst();
 		user2.bookTicket(10);
 		
-		System.out.println(user1.getInst());
-		System.out.println(user2.getInst());
+		//System.out.println(user1.getInst());
+		//System.out.println(user2.getInst());
 
 	}
 
