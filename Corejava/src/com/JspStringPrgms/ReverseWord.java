@@ -1,6 +1,6 @@
 package com.JspStringPrgms;
 
-public class ReverseWord {
+public class ReverseWord {  //along with the sentence
 
 	public static void main(String[] args) {
 		String s="java is very very easy";
