@@ -1,4 +1,4 @@
-package TwoDimArray;
+package com.TwoDimArray;
 
 public class PascalTriangle {                         /*       1 
                                                               1 1 

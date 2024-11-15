@@ -1,4 +1,4 @@
-package TwoDimArray;
+package com.TwoDimArray;
 
 public class Demo1 {
 

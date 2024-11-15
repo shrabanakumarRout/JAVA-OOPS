@@ -1,4 +1,4 @@
-package StringPractise;
+package com.Stringpractise;
 
 public class ExTocharArray {
 

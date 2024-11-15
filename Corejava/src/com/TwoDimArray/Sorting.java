@@ -1,4 +1,4 @@
-package TwoDimArray;
+package com.TwoDimArray;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package PracticeOops;
+package com.Oops;
 
 public class Test1 {
       static int i = 10;
