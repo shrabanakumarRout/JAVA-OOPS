@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class Test10 {
 
 	public static void main(String[] args) {
-		String s = "abcdabbeagebabbb";
+		String s = "aabcdabbeagebabbb";
 		String exp =("ab+"); //minimum 1 and more occurrence of previous character
 		
 		Pattern p = Pattern.compile(exp);

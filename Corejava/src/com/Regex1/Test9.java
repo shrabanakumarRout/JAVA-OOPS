@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class Test9 {
 
 	public static void main(String[] args) {
-		String s = "a1b3268d6df14";
+		String s = "a12b3268d6df14";
 		String exp =("[0-9]{2}");
 		
 		Pattern p = Pattern.compile(exp);

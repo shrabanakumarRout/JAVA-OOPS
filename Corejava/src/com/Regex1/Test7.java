@@ -15,7 +15,7 @@ public class Test7 {
 		
 		while(m.find()) {
 			System.out.print(m.group());
-		   // System.out.println(m.reset());
+		   
 			System.out.print(m.end());
 
 	}

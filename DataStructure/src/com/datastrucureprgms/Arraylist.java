@@ -15,8 +15,8 @@ public class Arraylist {
 			   System.arraycopy(a, 0, temp, 0, a.length);
 			   a=temp;
 		   }
-		   a[pos]=o;
-		   pos++;
+		   a[pos++]=o;
+		   
 		   return "Added SuccessFully " +o;
 	   }
 	  

@@ -7,7 +7,7 @@ public class Test16 {
 
 	public static void main(String[] args) {
 		String exp = "([a-z])([a-z])\\1";
-		String str = "banana";
+		String str = "banananaana";
 		
 		Pattern p = Pattern.compile(exp);
 		Matcher m = p.matcher(str);

@@ -13,12 +13,13 @@ public class Test19 {
         
         
         while(m.find()) {
+        	System.out.println(m.group()+" "+m.start()+ " "+m.end());
         	String s1=m.group(); 
         	String s2 = s1.substring(0,1);
         	str = str.replaceAll(s1, s2);
         	
         }
-        System.out.println(str);
+         System.out.println(str);
         
 	}
 
