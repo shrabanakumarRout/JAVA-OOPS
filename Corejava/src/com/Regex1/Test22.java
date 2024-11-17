@@ -6,13 +6,19 @@ import java.util.regex.Pattern;
 public class Test22 {
 
 	public static void main(String[] args) {
-		String exp = "[0-9]{4}";
-		String str = "3456";
+		String exp = "[0-9]{3}";
+		String str = "256";
+		
 		
 		Pattern p = Pattern.compile(exp);
 		Matcher m = p.matcher(str);
 		System.out.println(m.matches());
+		
+		
+		
+		
 
 	}
+
 
 }
