@@ -14,14 +14,19 @@ public class ArrayTest {
         
      // System.out.println(l.remove(2));
       
-      for(int i=0;i<l.size();i++) {
+     for(int i=0;i<l.size();i++) {
     	  System.out.println((String)l.get(i));
       }
      l.remove(3);
      System.out.println("----------");
      for(int i=0;i<l.size();i++) {
     	 System.out.println((String)l.get(i));
-     }
+    	 }
+        
+       
+      
+        
+        
 	}
 	
 
