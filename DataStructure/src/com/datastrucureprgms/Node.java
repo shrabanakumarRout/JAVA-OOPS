@@ -1,11 +1,17 @@
 package com.datastrucureprgms;
 
-public class Node {
+public class node {
 	Object ele;
-	Node next;
+	node next;
 	
-	public Node(Object e, Node n) {
-		ele=e;
-		next =n;
+	public node(Object e) {
+		this.ele=e;
+		next = null;
 	}
+	
+	public node(Object e,node n) {
+		ele =e;
+		next=n;
+	}
+	
 }
