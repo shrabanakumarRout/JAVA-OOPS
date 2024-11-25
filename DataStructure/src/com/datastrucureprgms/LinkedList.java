@@ -72,9 +72,4 @@ public class LinkedList {
 		curr.next=curr.next.next;
 		count--;
 	}
-	
-
-	
-	
-
 }

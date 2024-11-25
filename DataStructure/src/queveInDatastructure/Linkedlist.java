@@ -5,7 +5,7 @@ public class Linkedlist {
       int count;
       
       
-      public void add(Object ele) {
+      public void push(Object ele) {
     	  if(head == null) {
     		  head=new node(ele);
     		  count++;

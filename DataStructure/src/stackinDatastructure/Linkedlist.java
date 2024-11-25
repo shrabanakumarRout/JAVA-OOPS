@@ -24,7 +24,7 @@ public class Linkedlist {
             	}
             public Object peek() {
             	if(head==null) {
-            		return new NullPointerException();
+            		throw new NullPointerException();
             	}
             	return head.ele;
             }
