@@ -1,5 +1,8 @@
 package TreeImplementation;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class binarysearchtree {
 
     private Node root;
@@ -29,5 +32,54 @@ public class binarysearchtree {
     	return n;
     }
     
+    public void levelorder() {
+    	Queue q = new LinkedList();
+    	if(root != null) q.add(root);
+    	
+    	
+    	while(!q.isEmpty()) {
+    		Node n = (Node) q.poll();
+    		System.out.print(n.key + " ");
+    		if(n.left != null) q.add(n.left);
+    		if(n.right != null) q.add(n.right);
+    	}
+    }
+    
+    public void preorder() {
+    	
+    	preorder(root);
+    	System.out.println();
+    }
+    	private void preorder(Node n){
+    		if(n==null)return;
+    		System.out.print(n.key + "");
+    		preorder(n.left);
+    		preorder(n.right);
+         }
+    
+    public void postorder() {
+    	postorder(root);
+    	System.out.println();
+    }
+    
+    private void postorder(Node n) {
+    	if(n==null) return;
+    	
+    	postorder(n.left);
+    	postorder(n.right);
+    	System.out.print(n.key+" ");
+    }
+    
+    public void inorder() {
+    	
+    	
+    	
+    }
+    private void inorder(Node n) {
+    	if(n==null)return;
+    	inorder(n.left);
+    	System.out.print(n.key);
+    	inorder(n.right);
+    }
 
 }
