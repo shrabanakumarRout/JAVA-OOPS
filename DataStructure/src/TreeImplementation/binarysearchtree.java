@@ -81,5 +81,39 @@ public class binarysearchtree {
     	System.out.print(n.key);
     	inorder(n.right);
     }
-
+    
+    public int smallest() {
+    	Node MinNode = minNode (root);
+    	return MinNode.key;
+    }
+    
+     Node minNode(Node n) {
+    	 if(n.left==null) return n;
+    	 return minNode(n.left);
+     }
+      Node removeNode(Node n ,int key) {
+    	  if (n==null) {
+    		  return n;
+    	  }
+		if(key<n.key) {
+			n.left=removeNode(n.left,key);
+		}else if(key > n.key) {
+			n.right = removeNode(n.right,key);
+		}else {
+			if(n.left == null && n.right == null) {
+				n=null;
+			}else if(n.left == null) {
+				n= n.right;
+			}else if(n.right==null) {
+				n=n.left;
+			}else {
+				Node minNode = minNode(n.right);
+				int temp = n.key;
+				n.key=minNode.key;
+				minNode.key=temp;
+				n.right=removeNode(n.right,key);
+			}
+		}
+		return n;
+      }
 }
