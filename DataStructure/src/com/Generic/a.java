@@ -7,4 +7,7 @@ public class a<E>{
  {
 	 x=e;
  }
+ public E get() {
+	 return x;
+ }
 }
