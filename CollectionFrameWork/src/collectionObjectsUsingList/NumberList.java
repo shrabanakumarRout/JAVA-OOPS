@@ -1,4 +1,4 @@
-package collectionMethod;
+package collectionObjectsUsingList;
 
 import java.util.ArrayList;
 import java.util.Collections;
