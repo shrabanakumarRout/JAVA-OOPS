@@ -9,17 +9,18 @@ public class Test8 {
 	public static void main(String[] args) {
 		
 		Collection c = new HashSet();
-		c.add(10);
-		c.add(20);
-		c.add(30);
+		c.add(1);
+		c.add(2);
+		c.add(3);
 		
 		
 		Iterator itr = c.iterator();
 		
 		while(itr.hasNext()) {
-			System.out.println(itr.next());
+		   int i = (Integer)itr.next();
+		   if(i%2==0)itr.remove();
 		}
-
+       System.out.println(c);
 	}
 
 }
