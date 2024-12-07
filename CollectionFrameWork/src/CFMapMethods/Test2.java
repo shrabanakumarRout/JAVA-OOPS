@@ -14,10 +14,13 @@ public class Test2 {
 		m1.put(103, "Sita");
 		m1.put(104,"Disha");
 		
-		Set s = m1.keySet();
+		
+		System.out.println(m1);
+		
+	/* Set s = m1.keySet();
 		System.out.println(s);
 		Collection c = m1.values();
-		System.out.println(c);
+		System.out.println(c); */
 
 	}
 
