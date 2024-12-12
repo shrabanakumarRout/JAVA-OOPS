@@ -9,6 +9,7 @@ public class test1 {
 		
 		Thread t2 = new PrintAlphaThread();
 		t2.start();
+		
 		System.out.println("main ends");
 
 	}
