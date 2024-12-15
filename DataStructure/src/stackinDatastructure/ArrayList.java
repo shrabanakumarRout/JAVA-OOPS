@@ -41,7 +41,7 @@ public class ArrayList {
 		if(count==0) throw new Exception("stack is Empty");
 		Object temp = a[--count];
 		a[count]=null;
-		return temp;
+		return temp; //Return The Temp;
 	}
 
 }
