@@ -1,4 +1,4 @@
-package CFMapMethods;
+package cfMapInterface;
 
 import java.util.Collection;
 import java.util.HashMap;
