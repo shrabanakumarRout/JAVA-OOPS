@@ -9,7 +9,7 @@ public class Test3 {
 
 	public static void main(String[] args) {
 		
-		Map<Integer,String> m = new TreeMap<Integer,String>();
+		Map<Integer,String> m = new TreeMap<Integer,String>(); //Check it also With HasMap Interface
 		
 		m.put(7,"Thala");
 		m.put(18,"Kohli");
