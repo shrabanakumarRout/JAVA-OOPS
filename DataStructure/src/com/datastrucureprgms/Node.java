@@ -11,7 +11,7 @@ public class node {
 	
 	public node(Object e,node n) {
 		ele =e;
-		next=n;
+		next=n; //Next Element Address Store
 	}
 	
 }
