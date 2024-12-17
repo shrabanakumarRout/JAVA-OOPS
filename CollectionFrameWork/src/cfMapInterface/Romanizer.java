@@ -12,7 +12,7 @@ public class Romanizer {
 	}
 	
 	public static String Convert(int num) {
-		Map<Integer,String>m = new LinkedHashMap<Integer , String>();
+		Map<Integer,String> m = new LinkedHashMap<Integer , String>();
 		String res= " ";
 		
 		m.put(1,"I");
