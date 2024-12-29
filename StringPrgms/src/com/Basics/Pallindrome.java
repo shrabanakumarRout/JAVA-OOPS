@@ -3,7 +3,7 @@ package com.Basics;
 public class Pallindrome {
 
 	public static void main(String[] args) {
-		int n=121; //Variable Declaration
+		int n=121;
 		int temp =n;
 		int rev = 0;
 		while(n>0)
