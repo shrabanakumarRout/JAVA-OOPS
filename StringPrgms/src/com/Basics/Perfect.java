@@ -14,7 +14,7 @@ public class Perfect {
 			System.out.println(n+ " "+"is a perfect number");
 		}
 		else {
-			System.out.println(n+ " "+ "is not a perfect number");
+			System.out.println(n+ " "+ "is not a perfect number"); //Commit
 		}
 
 	}
