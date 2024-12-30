@@ -8,7 +8,7 @@ public class Factorial {
 		for(int i=1;i<=n;i++) {
 			fact*=i;
 		}
-		System.out.println("Factorial of the number is"+fact);
+		System.out.println("Factorial of the number is"+fact);  //Commit
 
 	}
 
