@@ -18,7 +18,7 @@ public class Pallindrome {
 			System.out.println(rev + " "+ "is a pallindrome number");
 		}
 		else {
-			System.out.println(rev + " "+"is not a Pallindrome number"); //Commit
+			System.out.println(rev + " "+"is not a Pallindrome number");
 		}
 	
 	}
